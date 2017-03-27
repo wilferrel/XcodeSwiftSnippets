@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-nslocalizedstring</string>
+	<string>swift-WeakSelf Guard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(&lt;#key#&gt;, comment: &lt;#comment#&gt;)</string>
+	<string>guard let `self` = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F60D36B3-5FE0-4C44-92AD-E33658E5AF89</string>
+	<string>31755967-FFA7-4EB0-B8B3-9DA9A58FB0B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSLocalizedString function snippet for Swift</string>
+	<string>without needing to strongself after weak</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift NSLocalizedString</string>
+	<string>WeakSelf guard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

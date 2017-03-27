@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-singleton</string>
+	<string>ObjC-weakSelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let sharedInstance : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
+	<string>__weak typeof(self) weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
+	<string>1F7884BE-134A-4397-8972-0500270BBF2B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Singleton pattern for Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Singleton</string>
+	<string>Generic Weak Self Reference</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

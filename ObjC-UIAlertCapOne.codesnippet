@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ObjC- UIALert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>BOOL translationDisabled = [self.account translationDisabled];
+        C1Error *error = [[C1Error alloc] initWithError:error httpStatus:httpStatus useFallback:YES translationDisabled:translationDisabled];
+        UIAlertController *alert = [error alertController];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self presentViewController:alert animated:YES completion:nil];
+        });
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CF6B1D93-D0FB-4B4C-9198-85DEFBA80024</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Cap1 UIAlert</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
